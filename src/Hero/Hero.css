@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* height: 90vh; */
+    
+}
+.container img{
+    width: 147vmax;
+    height: 38vmax;
+    animation: animation 4s ease-out infinite;
+  
+}
+.container .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 9vmax;
+    text-align: center;
+}
+.main h1{
+    font-size: 7vmax;
+    /* width: 40vmax; */
+    line-height: 80%;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif ; */
+}
+.main p{
+    text-align: justify;
+    margin-top: -1vmax;
+}
+.btns button{
+    margin: 1vmax;
+    width: 12vmax;
+    height: 3vmax;
+    border: none;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Download{
+    background-color: orangered;
+    color: white;
+}
+.Download:active{
+    scale: 0.9;
+}
+.visit:active{
+    scale: 0.9;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(5px); 
+    }
+    100% {
+        transform: translateY(-10px); 
+    }
+  }
