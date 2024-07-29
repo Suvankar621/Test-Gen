@@ -1,3 +1,16 @@
 #uploadJson{
     margin-left: 1vmax;
 }
+#DUJ{
+    background-color: royalblue;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    height: 3vmax;
+    padding: 1vmax;
+    cursor: pointer;
+
+}
+#DUJ:active{
+    scale: 0.9;
+}

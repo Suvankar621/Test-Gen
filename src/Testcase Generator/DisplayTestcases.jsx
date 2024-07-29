@@ -97,7 +97,7 @@ const DisplayTestcases = () => {
               onDevCommentChange={handleDevCommentChange}
             />
           ))}
-          <button onClick={handleDownload}>Download Updated JSON</button>
+          <button id='DUJ' onClick={handleDownload}>Download Updated JSON</button>
         </div>
       )}
     </div>
